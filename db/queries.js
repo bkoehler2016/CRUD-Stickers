@@ -1,8 +1,8 @@
-const knex = require('./knex'); // the connection
+const knex = require('./knex'); // the connection!
 
 module.exports = {
-    getAll(){
-        
-    }
+  getAll() {
+    return knex('sticker');
+  }
     
 }
