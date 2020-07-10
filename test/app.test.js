@@ -14,5 +14,9 @@ describe('CRUD Stickers', () => {
       }).then(() => done());
   });
 
-  
+  it('Works...', function(){
+      console.log('Its Working!');
+      
+  })
+
 });
